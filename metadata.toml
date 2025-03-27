@@ -1,0 +1,88 @@
+#:schema https://raw.githubusercontent.com/yunanwg/brilliant-CV/main/metadata.toml.schema.json
+
+# Set the output language
+# INFO: value must matches folder suffix; i.e "zh" -> "./modules_zh"
+language = "fr"
+
+[layout]
+    # Optional values: skyblue, red, nephritis, concrete, darknight
+    # You can also use a custom color by hex code i.e. "#1E90FF"
+    awesome_color = "#0984e3"
+
+    # Skips are for controlling the spacing between sections and entries
+    before_section_skip = "1pt"
+    before_entry_skip = "1pt"
+    before_entry_description_skip = "1pt"
+
+    # Optional: sets paper size and margins. Possible values: a4 (default), us-letter
+    paper_size = "a4"
+
+    # Optional: sets the width of the right column of a cvEntry. If not set, values known to work well are used
+    #date_width = "3.6cm"
+
+    [layout.fonts]
+        regular_fonts = ["Source Sans Pro", "Source Sans 3"]
+        header_font = "Roboto"
+
+    [layout.header]
+        # Optional values: left, center, right
+        header_align = "left"
+
+        # Decide if you want to display profile photo or not
+        display_profile_photo = true
+        info_font_size = "10pt"
+
+    [layout.entry]
+        # Decide if you want to put your company in bold or your position in bold
+        display_entry_society_first = true
+
+        # Decide if you want to display organisation logo or not
+        display_logo = true
+
+[inject]
+    # Decide if you want to inject AI prompt or not
+    inject_ai_prompt = false
+
+    # Decide if you want to inject keywords or not
+    inject_keywords = true
+    injected_keywords_list = ["Data Science", "Machine Learning", "Deep Learning", "Computer Vision", "Natural Language Processing", "Reinforcement Learning", "AI Ethics", "AI Safety", "AI Governance", "AI Policy"]
+
+[personal]
+    first_name = "Pierre Meunier"
+    last_name = "\nData Scientist"
+
+    # The order of this section will affect how the entries are displayed
+    # The custom value is for any additional information you want to add, name it as custom-1, custom-2, etc.
+    [personal.info]
+        email = "pierre.carcellermeunier@gmail.com"
+        phone = "+33 6 84 34 45 52"
+        github = "Soum-Soum"
+        linkedin = "pierre-carceller-meunier-b05420142"
+        # gitlab = "yunanwg"
+        # homepage = "jd.me.org"
+        # orcid = "0000-0000-0000-0000"
+        # researchgate = "John-Doe"
+        [personal.info.custom-1]
+            # image = image("./src/me.jpeg")
+            # awesomeIcon = "graduation-cap" # Example: "graduation-cap" see https://typst.app/universe/package/fontawesome/
+            # text = "PhD"
+            # link = "https://www.example.com"
+
+# add a new section if you want to include the language of your choice
+# i.e. [[lang.ru]]
+# each section must contains the following fields
+[lang.en]
+    header_quote = "Research engineer in artificial intelligence, I'm looking for the next company where I can help push the boundaries of what's possible !\nPassionate about AI since back when ‘GPT’ still looked like a typo."
+    cv_footer = "Curriculum vitae"
+    letter_footer = "Cover letter"
+
+[lang.fr]
+    header_quote = "Ingénieur de recherche en intelligence artificielle, je cherche la prochaine entreprise dans laquelle je pourrais contribuer à repousser les limites du possible !\nPassionate about AI since back when ‘GPT’ still looked like a typo."
+    cv_footer = "Curriculum vitae"
+    letter_footer = "Lettre de motivation"
+
+ # For languages that are not written in Latin script
+ # Currently supported non-latin language codes: ("zh", "ja", "ko", "ru")
+[lang.non_latin]
+    name = "王道尔"
+    font = "Heiti SC"
