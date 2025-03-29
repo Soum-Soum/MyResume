@@ -2,17 +2,17 @@
 
 # Set the output language
 # INFO: value must matches folder suffix; i.e "zh" -> "./modules_zh"
-language = "fr"
+language = "en"
 
 [layout]
     # Optional values: skyblue, red, nephritis, concrete, darknight
     # You can also use a custom color by hex code i.e. "#1E90FF"
-    awesome_color = "#0984e3"
+    awesome_color = "#218c74"
 
     # Skips are for controlling the spacing between sections and entries
     before_section_skip = "1pt"
     before_entry_skip = "1pt"
-    before_entry_description_skip = "1pt"
+    before_entry_description_skip = "-2pt"
 
     # Optional: sets paper size and margins. Possible values: a4 (default), us-letter
     paper_size = "a4"
@@ -34,7 +34,7 @@ language = "fr"
 
     [layout.entry]
         # Decide if you want to put your company in bold or your position in bold
-        display_entry_society_first = true
+        display_entry_society_first = false
 
         # Decide if you want to display organisation logo or not
         display_logo = true
@@ -72,12 +72,12 @@ language = "fr"
 # i.e. [[lang.ru]]
 # each section must contains the following fields
 [lang.en]
-    header_quote = "Research engineer in artificial intelligence, I'm looking for the next company where I can help push the boundaries of what's possible !\nPassionate about AI since back when ‘GPT’ still looked like a typo."
+    header_quote = "Research engineer in artificial intelligence, I'm looking for the next company where I can help to push the boundaries of what's possible !\nPassionate about AI since back when it was still a nerd thing.🧑‍💻"
     cv_footer = "Curriculum vitae"
     letter_footer = "Cover letter"
 
 [lang.fr]
-    header_quote = "Ingénieur de recherche en intelligence artificielle, je cherche la prochaine entreprise dans laquelle je pourrais contribuer à repousser les limites du possible !\nPassionate about AI since back when ‘GPT’ still looked like a typo."
+    header_quote = "Ingénieur de recherche en intelligence artificielle, je cherche la prochaine entreprise dans laquelle je pourrais contribuer à repousser les limites du possible !\nPassionné d'IA depuis l'époque ou c'était encore un truc de nerd.🧑‍💻"
     cv_footer = "Curriculum vitae"
     letter_footer = "Lettre de motivation"
 

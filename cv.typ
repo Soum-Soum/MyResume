@@ -12,7 +12,7 @@
 
 #show: cv.with(
   metadata,
-  profilePhoto: image("./src/me.jpeg"),
+  profilePhoto: image("./src/me_green2.jpeg"),
 )
 #importModules((
   "education",
