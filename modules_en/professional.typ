@@ -51,8 +51,8 @@
 
 
 #cvEntry(
-  title: [],
-  society: [Freelancing],
+  title: [Freelancing],
+  society: [Data Scientist consultant],
   date: [2016 - 2024],
   location: [Remote],
   logo: image("../src/logos/consultant.png"),

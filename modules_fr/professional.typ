@@ -23,10 +23,10 @@
 )
 
 #cvEntry(
-  title: [],
+  title: [Namirial S.P.A],
   society: [Data Scientist],
   date: [2020 - 2023],
-  logo: image("../src/logos/white.jpg"),
+  logo: image("../src/logos/namirial_logo.png"),
   location: [Montpellier, France],
   description: list(
     [Implémentation de modèles SOTA depuis le papier de recherche jusqu'à la production],
@@ -52,8 +52,8 @@
 
 
 #cvEntry(
-  title: [],
-  society: [Freelancing],
+  title: [Freelancing],
+  society: [Data Scientist consultant],
   date: [2016 - 2024],
   location: [Remote],
   logo: image("../src/logos/consultant.png"),

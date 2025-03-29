@@ -2,7 +2,7 @@
 
 # Set the output language
 # INFO: value must matches folder suffix; i.e "zh" -> "./modules_zh"
-language = "en"
+language = "fr"
 
 [layout]
     # Optional values: skyblue, red, nephritis, concrete, darknight
